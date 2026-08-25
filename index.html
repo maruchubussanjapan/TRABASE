@@ -1,40 +1,11 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="TRABASE helps international travelers explore Japan from a comfortable home base." />
-    <title>TRABASE — Your home base for Japan</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="nav shell">
-      <a class="brand" href="./" aria-label="TRABASE home">TRABASE<span>.</span></a>
-      <nav aria-label="Primary navigation">
-        <a href="#bases">Bases</a>
-        <a href="#how-it-works">How it works</a>
-        <a class="nav-cta" href="#start">Plan a trip</a>
-      </nav>
-    </header>
-
-    <main>
-      <section class="hero shell" id="start">
-        <div class="hero-copy">
-          <p class="eyebrow">A smarter way to travel Japan</p>
-          <h1>Stay in one place.<br /><em>Explore more.</em></h1>
-          <p class="lede">Find the right home base, then discover the best day trips, local food, and hidden corners within easy reach.</p>
-          <div class="search" role="search">
-            <label for="base">Where will you base yourself?</label>
-            <div class="search-row"><select id="base"><option>Tokyo</option><option>Osaka</option><option>Kyoto</option></select><button type="button">Explore from here →</button></div>
-          </div>
-        </div>
-        <div class="hero-card"><span class="stamp">TRAVEL<br />FURTHER</span><div class="route"><span>Tokyo</span><i></i><span>Hakone</span><i></i><span>Nikko</span></div><p>One base. Many stories.</p></div>
-      </section>
-
-      <section class="section shell" id="bases"><div class="section-heading"><div><p class="eyebrow">Choose your base</p><h2>Japan, made easier.</h2></div><p>Start with a city that fits your pace. We’ll show you what’s possible from there.</p></div><div class="base-grid"><article><span>01</span><h3>Tokyo</h3><p>Big city energy, quiet neighborhoods, and day trips in every direction.</p><a href="#start">Explore Tokyo →</a></article><article><span>02</span><h3>Osaka</h3><p>Food, friendly streets, and a perfect gateway to Kyoto and beyond.</p><a href="#start">Explore Osaka →</a></article><article><span>03</span><h3>Kyoto</h3><p>Slow mornings, timeless culture, and the mountains at your doorstep.</p><a href="#start">Explore Kyoto →</a></article></div></section>
-
-      <section class="how section shell" id="how-it-works"><p class="eyebrow">How TRABASE works</p><h2>Travel with a place<br />to come back to.</h2><div class="steps"><div><strong>01</strong><h3>Pick a base</h3><p>Choose a city that matches your interests, budget, and travel style.</p></div><div><strong>02</strong><h3>Find your radius</h3><p>See day trips ranked by time, cost, season, and what makes them special.</p></div><div><strong>03</strong><h3>Make it yours</h3><p>Build a flexible itinerary without moving your bags every night.</p></div></div></section>
-    </main>
-    <footer class="shell"><a class="brand" href="./">TRABASE<span>.</span></a><p>Your home base for exploring Japan.</p></footer>
-  </body>
-</html>
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="TRABASE helps travelers find a base and discover a deeper Japan."><title>TRABASE — Find your way into Japan</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<header class="nav shell"><a class="brand" href="./">TRABASE<span>.</span></a><nav><a href="#journey">Your journey</a><a href="#bases">Bases</a><button class="lang">EN / JP</button></nav></header>
+<main>
+<section class="hero shell"><div class="hero-copy"><p class="eyebrow">A different way to travel Japan</p><h1>Find a base.<br><em>Find yourself.</em></h1><p class="lede">Stay somewhere practical. Let the place around you unfold. TRABASE connects you with the Japan that guidebooks often miss.</p><div class="question"><p>What do you need today?</p><div class="choice-row"><button data-mood="quiet">To slow down</button><button data-mood="local">To find local life</button><button data-mood="wild">To go somewhere unexpected</button></div></div></div><div class="hero-art"><div class="sun"></div><div class="island island-a"></div><div class="island island-b"></div><div class="art-note">A place to return to<br><i>opens a world around it.</i></div><div class="art-route">TOKYO <span>— — —</span> NIJIMA</div></div></section>
+<section class="recommendation shell" id="journey"><div class="recommendation-top"><div><p class="eyebrow">Your next possibility</p><h2 id="recommendation-title">A quiet day from Tokyo</h2></div><div class="weather">TOKYO · 24°C<br><span>Light rain after 16:00</span></div></div><div class="journey-card"><div class="journey-image"><span>01 / 03</span><strong id="journey-label">SLOW DOWN</strong></div><div class="journey-copy"><p id="journey-text">Start at your private base in Minami-Senju. Walk the old neighborhood, warm up at a local sentō, and return before the rain.</p><div class="journey-meta"><span>¥4,000–6,000</span><span>NORMAL</span><span>Back by 18:00</span></div><div class="actions"><button class="primary" id="accept">I’m curious →</button><button class="secondary" id="skip">Not today</button></div></div></div></section>
+<section class="base-section shell" id="bases"><div class="section-heading"><div><p class="eyebrow">Start with a base</p><h2>Then see what<br>opens up.</h2></div><p>A TRABASE is a private, practical place to return to between journeys.</p></div><div class="base-grid"><article><span>01</span><h3>Tokyo</h3><p>Neighborhood life, islands, ferries, and a thousand ways out.</p><a href="#journey">Make it your base →</a></article><article><span>02</span><h3>Osaka</h3><p>Food, friendly streets, and the Setouchi beyond.</p><a href="#journey">Make it your base →</a></article><article><span>03</span><h3>Kyoto</h3><p>Quiet temples, hot springs, and the road into the mountains.</p><a href="#journey">Make it your base →</a></article></div></section>
+</main><footer class="shell"><a class="brand" href="./">TRABASE<span>.</span></a><p>Stay at a base. Travel somewhere unexpected.</p></footer><script src="app.js"></script>
+</body></html>
