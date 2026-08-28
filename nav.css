@@ -1,0 +1,1 @@
+.map-link{display:inline-flex!important;align-items:center;border:1px solid var(--ink);border-radius:999px;padding:10px 15px;font-weight:bold}@media(max-width:720px){.nav{gap:12px}.nav nav{gap:0}.nav .map-link{display:inline-flex!important;font-size:11px;padding:9px 12px}.nav .lang{display:none}}
