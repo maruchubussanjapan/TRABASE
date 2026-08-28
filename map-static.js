@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-city]').forEach(item=>item.addEventListener('click',()=>{const key=item.dataset.city;document.querySelectorAll('.svg-pin').forEach(pin=>pin.classList.toggle('active',pin.dataset.city===key));window.selectCity(key);}));
